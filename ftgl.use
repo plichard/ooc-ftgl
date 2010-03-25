@@ -1,6 +1,6 @@
 Name: ftgl
 Description: ftgl
-SourcePath: .
+SourcePath: source/
 Libs: -lftgl
 Pkgs: ftgl
 

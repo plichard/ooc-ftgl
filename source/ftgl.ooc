@@ -20,12 +20,12 @@ Ftgl: class {
 		printf("Loaded font: %s\n",filename)
 	}
 	
-	render: func(x,y,s: Double,mirror: Bool, text: String) {
+	render: func(x,y,s: Double, mirror: Bool, text: String) {
 		glPushMatrix()
-		glTranslated(x,y,0)
-		glScaled(s,s,s);
+		glTranslated(x, y, 0)
+		glScaled(s, s, s);
 		if(mirror) {
-			glRotated(180,1,1,1)
+			glRotated(180, 1, 0, 0)
 		}
 		renderFont(font,text,FTGL_RENDER_ALL)
 		glPopMatrix()
