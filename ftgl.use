@@ -1,0 +1,6 @@
+Name: ftgl
+Description: ftgl
+SourcePath: .
+Libs: -lftgl
+Pkgs: ftgl
+
